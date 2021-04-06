@@ -1,0 +1,8 @@
+rect {
+  fill: orange;
+  transform: rotate(30deg);
+}
+
+.rect2 {
+  fill: darkgreen;
+}

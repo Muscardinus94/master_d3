@@ -126,6 +126,23 @@ label {
   justify-content: space-evenly;
 }
 
+#cont div {
+  max-width: 100px;
+}
+
+#cont h2,
+#cont p {
+  margin: 0;
+}
+
+#cont h2 {
+  color: #005cc8;
+}
+
+#cont p {
+  color: rgb(63, 63, 63);
+}
+
 #legend {
   height: 50px;
   display: flex;
@@ -135,10 +152,26 @@ label {
   margin-bottom: 30px;
 }
 
+#legend > div {
+  height: 25px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+#legend > div > div {
+  border-radius: 10px;
+}
+
+#legend > div > p {
+  margin: 0 0 0 5px;
+  font-size: small;
+  color: gray;
+}
+
 #gross {
   width: 600px;
   height: 300px;
-  border: '1px solid black';
 }
 
 #dura {

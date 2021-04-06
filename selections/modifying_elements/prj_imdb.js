@@ -215,11 +215,9 @@ function updateLegend(selectedMovies) {
     const holder = d3.select('#legend').append('div');
     holder
       .append('div')
-      .style('border', '1px solid black')
       .style('width', '15px')
       .style('height', '15px')
-      .style('background-color', `${movie.color}`)
-      .style('border-radius', '15px');
+      .style('background-color', `${movie.color}`);
     holder.append('p').text(`${movie.name}`);
   });
 }

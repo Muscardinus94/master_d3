@@ -22,9 +22,9 @@ let circles = d3
   });
 
 circles.dispatch('color', function (d, i, n) {
-  // console.log(d);
-  // console.log(i);
-  // console.log(n);
+  console.log(d);
+  console.log(i);
+  console.log(n);
   return {
     detail: `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${
       Math.random() * 255

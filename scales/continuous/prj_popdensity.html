@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Population Density</title>
+    <link rel="stylesheet" href="prj_popdensity.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Population Density Chart</h1>
+        <p>Top 10 countries with highest population density (in sq,km)</p>
+      </div>
+
+      <div id="chart">
+        <svg></svg>
+      </div>
+
+      <div id="output">
+        <h3>
+          Enter any number between 0 and 100 (in the left box) to get a
+          corresponding popultaion density value, with 100 being the maximum
+          rating for the population density of Macao
+        </h3>
+
+        <input type="text" id="scaleinput" />
+        <button type="submit" id="scalesubmit">Get Population Density</button>
+        <p id="scaleoutput"></p>
+      </div>
+    </div>
+  </body>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="prj_popdensity.js"></script>
+</html>
